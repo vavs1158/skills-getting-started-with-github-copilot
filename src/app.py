@@ -118,4 +118,4 @@ def signup_for_activity(activity_name: str, email: str):
     return {"message": f"Signed up {email} for {activity_name}"}
 
 
-@app.get("/activities/{activity_name}") 
+#@app.get("/activities/{activity_name}") 
